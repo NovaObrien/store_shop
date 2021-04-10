@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
-using amazen_server.repositories;
-using amazen_server.Repositories;
-using amazen_server.Services;
 using CodeWorks.Auth0Provider;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -19,7 +16,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using MySqlConnector;
 
-namespace amazen_server
+namespace store_shop_server
 {
   public class Startup
   {
