@@ -9,7 +9,7 @@ function loadPage(page) {
 
 const routes = [
   {
-    path: '/realm',
+    path: '/app',
     component: loadPage('AuthGuard'),
     beforeEnter(to, from, next) {
       authGuard(to, from, async() => {
@@ -18,16 +18,6 @@ const routes = [
       })
     },
     children: [{
-      path: '',
-      name: 'RealmHomePage',
-      component: loadPage('RealmHomePage')
-    },
-    {
-      path: 'town/:id',
-      name: 'Town',
-      component: loadPage('TownPage')
-    },
-    {
       path: '/profile',
       name: 'Profile',
       component: loadPage('ProfilePage')
