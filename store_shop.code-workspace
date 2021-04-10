@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "client",
+      "name": "Client"
+    },
+    {
+      "path": "store_shop_server",
+      "name": "Server"
+    }
+  ],
+  "settings": {}
+}
