@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "74q9k1ToGwTQzpZ0F0XQU19USS8Z/5ihbR/KsPQ8LYsLsJyt7i9Re81hSgEaE1CHAMQgw19WMlJ4TY6iL2GwgQ==",
+  "dgSpecHash": "uWmstXgUpW3Io7E0j9WlWKbVk1f9sPfKmqLFMImXb0J0inr9z3vyvlE6Fu0Sqw1m3wWzrmQy+6xhundWshjExQ==",
   "success": true,
-  "projectFilePath": "c:\\source\\space\\store_shop\\store_shop_server\\store_shop_server.csproj",
+  "projectFilePath": "C:\\source\\space\\store_shop\\store_shop_server\\store_shop_server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tanner O'Brien\\.nuget\\packages\\codeworks.auth0provider\\1.0.3\\codeworks.auth0provider.1.0.3.nupkg.sha512",
     "C:\\Users\\Tanner O'Brien\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\source\\space\\store_shop\\store_shop_server\\store_shop_server.csproj": {}
+    "C:\\source\\space\\store_shop\\store_shop_server\\store_shop_server.csproj": {}
   },
   "projects": {
-    "c:\\source\\space\\store_shop\\store_shop_server\\store_shop_server.csproj": {
+    "C:\\source\\space\\store_shop\\store_shop_server\\store_shop_server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\source\\space\\store_shop\\store_shop_server\\store_shop_server.csproj",
+        "projectUniqueName": "C:\\source\\space\\store_shop\\store_shop_server\\store_shop_server.csproj",
         "projectName": "store_shop_server",
-        "projectPath": "c:\\source\\space\\store_shop\\store_shop_server\\store_shop_server.csproj",
+        "projectPath": "C:\\source\\space\\store_shop\\store_shop_server\\store_shop_server.csproj",
         "packagesPath": "C:\\Users\\Tanner O'Brien\\.nuget\\packages\\",
-        "outputPath": "c:\\source\\space\\store_shop\\store_shop_server\\obj\\",
+        "outputPath": "C:\\source\\space\\store_shop\\store_shop_server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tanner O'Brien\\AppData\\Roaming\\NuGet\\NuGet.Config"
