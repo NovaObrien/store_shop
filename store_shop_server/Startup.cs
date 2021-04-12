@@ -15,6 +15,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using MySqlConnector;
+using store_front_server.Services;
+using store_front_server.Repositories;
 
 namespace store_shop_server
 {
