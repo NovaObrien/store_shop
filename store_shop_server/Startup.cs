@@ -60,12 +60,12 @@ namespace store_shop_server
       services.AddControllers();
       services.AddSwaggerGen(c =>
       {
-        c.SwaggerDoc("v1", new OpenApiInfo { Title = "amazen-server", Version = "v1" });
+        c.SwaggerDoc("v1", new OpenApiInfo { Title = "store_front_server", Version = "v1" });
       });
       services.AddScoped<IDbConnection>(X => CreateDbConnection());
 
-      // services.AddTransient<ProfilesService>();
-      // services.AddTransient<ProfilesRepository>();
+      services.AddTransient<ProfilesService>();
+      services.AddTransient<ProfilesRepository>();
       // services.AddTransient<CharactersService>();
       // services.AddTransient<CharactersRepository>();
       // services.AddTransient<TownsService>();
@@ -88,7 +88,7 @@ namespace store_shop_server
       {
         app.UseDeveloperExceptionPage();
         app.UseSwagger();
-        app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "amazen-server v1"));
+        app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "store_front_server v1"));
         app.UseCors("CorsDevPolicy");
       }
 

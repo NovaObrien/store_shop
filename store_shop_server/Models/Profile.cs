@@ -1,4 +1,4 @@
-namespace amazen_server.Models
+namespace store_front_server.Models
 {
   public class Profile
   {

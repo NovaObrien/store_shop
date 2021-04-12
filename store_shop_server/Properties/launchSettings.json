@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "amazen_server": {
+    "store_front_server": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

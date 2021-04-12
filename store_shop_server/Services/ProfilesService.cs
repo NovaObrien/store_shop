@@ -1,7 +1,7 @@
-using amazen_server.Repositories;
-using amazen_server.Models;
+using store_front_server.Repositories;
+using store_front_server.Models;
 
-namespace amazen_server.Services
+namespace store_front_server.Services
 {
   public class ProfilesService
   {

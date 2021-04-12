@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using amazen_server.Models;
-using amazen_server.Services;
+using store_front_server.Models;
+using store_front_server.Services;
 using CodeWorks.Auth0Provider;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace amazen_server.Controlers
+namespace store_front_server.Controlers
 {
   [ApiController]
   [Route("[controller]")]

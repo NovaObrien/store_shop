@@ -15616,7 +15616,7 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "amazen_server",
+  "RootNamespace": "store_front_server",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

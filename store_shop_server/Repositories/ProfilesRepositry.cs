@@ -1,8 +1,8 @@
 using System.Data;
-using amazen_server.Models;
+using store_front_server.Models;
 using Dapper;
 
-namespace amazen_server.Repositories
+namespace store_front_server.Repositories
 {
   public class ProfilesRepository
   {
