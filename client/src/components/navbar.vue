@@ -5,6 +5,11 @@
         Home
       </div>
     </router-link>
+    <router-link class="navbar-brand d-flex" :to="{ name: 'CartPage' }">
+      <div class="d-flex flex-column align-items-center">
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+    </router-link>
     <!-- <button
       class="navbar-toggler"
       type="button"

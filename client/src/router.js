@@ -21,6 +21,11 @@ const routes = [
       path: '/profile',
       name: 'Profile',
       component: loadPage('ProfilePage')
+    },
+    {
+      path: '/cart',
+      name: 'CartPage',
+      component: loadPage('CartPage')
     }]
   },
   {
