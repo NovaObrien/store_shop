@@ -1,5 +1,6 @@
 <template>
-  <div class="home-page flex-grow-1 d-flex flex-column align-items-center justify-content-center">
+  <div class="home-page">
+    <create-listing />
   </div>
 </template>
 
@@ -8,6 +9,7 @@ export default {
   name: 'HomePage',
   setup() {
     return {
+
     }
   }
 
