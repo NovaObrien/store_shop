@@ -33,7 +33,7 @@
 
 <script>
 import { reactive } from 'vue'
-import { logger } from '../utils/Logger'
+import { listingService } from '../services/ListingService'
 export default {
   name: 'CreateListing',
   setup() {
@@ -43,7 +43,7 @@ export default {
     return {
       state,
       createListing() {
-        logger.log(state.newListing)
+        listingService.createListing(state.newListing)
       }
     }
   },

@@ -5,9 +5,12 @@
 </template>
 
 <script>
+import { onMounted } from 'vue'
+import { listingSerivce } from '../services/ListingService'
 export default {
   name: 'HomePage',
   setup() {
+    onMounted(() => listingSerivce.getListings())
     return {
 
     }
